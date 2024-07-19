@@ -13,7 +13,7 @@ def sum_up_task():
 
 if __name__ == "__main__":
     sum_up_task.from_source(
-            "http://gitlab.alibaba-inc.com/chenzhangxinyu.czx/wp-test.git",
+            "https://github.com/kyuzizi-inf/test.git",
             entrypoint="flow.py:sum_up_task",
     ). deploy(
         name = "simple-work-pool-test",
